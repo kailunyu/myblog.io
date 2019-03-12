@@ -35,3 +35,38 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html>
+<head>
+<meta charset="utf-8">
+<title>1122222</title>
+<meta http-equiv="refresh"  content="">
+</head>
+<body onload="mm()"> 
+
+<div class="father">
+    
+        <div class="child1">盒子1</div>
+        <div class="child2">盒子2</div>
+    
+</div>  
+<div>nihao </div>
+<style>
+    .father {overflow: hidden;  background-color: dimgrey}
+    .child1 {width: 100px; height: 100px; float: left;background-color: coral;}
+    .child2 { width: 200px;height: 200px;float: w;background-color: darkcyan;}   
+  
+</style>
+</body>
+<script>
+function mm(){
+    
+    for( i=1 ; i<4; i++)
+    { alert("无限循环i"+i)  }
+                
+   /* function n(){alert("无限循环"+i)}*/
+             }
+
+    
+</script>
+
+</html>
